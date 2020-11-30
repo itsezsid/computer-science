@@ -1,6 +1,6 @@
 def date():
     myfile = open(
-        r'C:\Users\akash\Desktop\DataFile_Handling\Text files\text1.txt', "r")
+        r'static/text1.txt', "r")
     text_str = myfile.read()
     text_initial = text_str.split()
     text = text_initial[::]
