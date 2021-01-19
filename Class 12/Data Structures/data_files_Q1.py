@@ -39,7 +39,7 @@ def push(stack):
     stack.append(kr)
 
 
-stk = []
+stack = []
 
 while True:
     print('---------------------------------------------STACK OPERATIONS-------------------------------------')
@@ -50,16 +50,15 @@ while True:
         print('enter valid data type ')
         continue
     if choice == 1:
-        push(stk)
+        push(stack)
     elif choice == 2:
-        pop(stk)
+        pop(stack)
     elif choice == 3:
-        display(stk)
+        display(stack)
     elif choice == 4:
-        print("program terminated ")
+        print("Bye! ")
         break
     else:
         print("Wrong input, enter a number from 1-4 ")
         print('\n')
-
 
