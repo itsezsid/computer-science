@@ -1,6 +1,0 @@
-L = eval(input("Enter List"))
-L.sort()
-print("Largest" , L[-1])
-print("Smallest" , L[0])
-print("Second largest", L[-2])
-print("Second smallest", L[1])

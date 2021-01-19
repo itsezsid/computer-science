@@ -43,10 +43,10 @@ def push(stack):
     stack.append(dictionary_area)
 
 
-stk = []
+stack = []
 
 while True:
-    print('---------------------------------------------STACK OPERATIONS-------------------------------------')
+    print('-------------------------------------STACK OPERATIONS-------------------------------------')
     print('1. PUSH', '2. POP', '3. DISPLAY', '4. EXIT', sep='\n')
     try:
         choice = int(input("make your choice: "))
@@ -54,11 +54,11 @@ while True:
         print('enter valid data type ')
         continue
     if choice == 1:
-        push(stk)
+        push(stack)
     elif choice == 2:
-        pop(stk)
+        pop(stack)
     elif choice == 3:
-        display(stk)
+        display(stack)
     elif choice == 4:
         print("program terminated ")
         break
